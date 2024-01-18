@@ -1,8 +1,13 @@
 ---
-permalink: /tags/
+permalink: /collections/
 layout: layouts/home.njk
 ---
-<h1>Tags</h1>
+
+<div class="pagecover">
+{% image "https://imagizer.imageshack.com/img922/8558/yNeyv9.png", "A possum parent and two possum kids hanging from the iconic red balloon" %}
+</div>
+
+<h1>Collections</h1>
 
 <ul>
 {% for tag in collections.all | getAllTags | filterTagList %}

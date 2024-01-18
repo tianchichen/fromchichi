@@ -4,20 +4,15 @@ layout: layouts/home.njk
 numberOfLatestPostsToShow: 6
 ---
 <div class="logo">
-{% image "./profile.png", "A possum parent and two possum kids hanging from the iconic red balloon" %}
+{% image "https://imagizer.imageshack.com/img924/4682/Jhg6Kh.png", "A possum parent and two possum kids hanging from the iconic red balloon" %}
 </div>
 
 
-<div class="intro">
-
-<p>Hi！我是吃吃</p>
-<p>这是我的数字Commonplace Book</p>
-</div>
 
 
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h2>Latest {{ latestPostsCount }} note{% if latestPostsCount != 1 %}s{% endif %}</h1>
+<h4>最新的{{ latestPostsCount }}个条目{% if latestPostsCount != 1 %}{% endif %}</h4>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}

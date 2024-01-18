@@ -1,29 +1,26 @@
 /* Defaults */
 :root {
-	--font-family: "Avara", -apple-system, system-ui, sans-serif;
+	--font-family: -apple-system, system-ui, sans-serif;
 	--font-family-monospace: ia writter, Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
 
 
 
-@font-face {
-  font-family: "Avara";
-  src: url(public/css/iAWriterQuattroS-Regular.woff);
-}
-
 
 /* Theme colors */
 :root {
 	--color-gray-20: #e0e0e0;
 	--color-gray-50: #C0C0C0;
+	--color-grey-70: #9d9d9d;
 	--color-gray-90: #333;
+	--color-red: #9b470f;
 
-	--background-color: #f3eeeb;
+	--background-color: #ececec;
 
 	--text-color: var(--color-gray-90);
 	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
+	--text-color-link-active: #9b470f;
 	--text-color-link-visited: #17050F;
 
 	--syntax-tab-size: 2;
@@ -41,20 +38,24 @@ html,
 body {
 	padding: 0;
 	margin: 0 auto;
-	font-family: var(--font-family);
+	font-family: var(--font-family-monospace);
 	color: var(--text-color);
 	background-color: var(--background-color);
+	font-size: 15px;
 	display: flex;
   flex-direction: column;
   justify-content: space-between; /* 垂直方向上的空间分配 */
   min-height: 100vh; /* 设置最小高度为视口高度，以确保 footer 在内容不足时也在底部 */
   height: 100%;
-
 }
 
 body {
 	max-width: 40em;
 }
+
+h4 {
+	letter-spacing: 1.5px !important;
+	color: var(--color-red);}
 
 
 
@@ -100,13 +101,8 @@ main :first-child {
 
 header {
 	border-bottom: 0px dashed var(--color-gray-20);
-	margin-bottom: 50px;
 }
-header:after {
-	content: "";
-	display: table;
-	clear: both;
-}
+
 
 .links-nextprev {
 	list-style: none;
@@ -148,30 +144,41 @@ code {
 /* Header */
 header {
 	display: flex;
-	gap: 1em .5em;
-	flex-wrap: wrap;
 	align-items: center;
+	justify-content: space-between;
 	padding: 1em;
 }
+
+
 .home-link {
-	font-size: 1em; /* 16px /16 */
+	font-size: 1.2em; /* 16px /16 */
 	font-weight: 700;
 	margin-right: 2em;
+	font-family: monospace;
 }
 .home-link:link:not(:hover) {
 	text-decoration: none;
 }
 
 /* Nav */
+
+
 .nav {
 	display: flex;
+	justify-content: space-between;
 	padding: 0;
+	padding-right: 0px;
 	margin: 0;
 	list-style: none;
+	font-family: monospace;
 }
+
+
+
 .nav-item {
 	display: inline-block;
-	margin-right: 1em;
+	margin-right: 3em;
+	font-size: 1.2em; /* 16px /16 */
 }
 .nav-item a[href]:not(:hover) {
 	text-decoration: none;
@@ -201,14 +208,21 @@ header {
 	text-align: right;
 	margin-left: -1.5rem;
 }
-.postlist-date,
+
 .postlist-item:before {
 	font-size: 0.8125em; /* 13px /16 */
-	color: var(--color-gray-90);
+	color: var(--color-red);
+	font-style: italic;
 }
+
 .postlist-date {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-70);
 	word-spacing: -0.5px;
+	font-family: monospace;
 }
+
+
 .postlist-link {
 	font-size: 1.1875em; /* 19px /16 */
 	font-weight: 700;
@@ -293,11 +307,14 @@ table {
 
   .a {
 	margin-top:80px;
+	margin-bottom: 80px;
   }
 
   .a th,
 .a td {
   text-align: left; /* 默认所有单元格左对齐 */
+  font-size: 13px;
+  font-family: monospace;
 }
 
 .a td:nth-child(2) {
@@ -314,7 +331,13 @@ img {
 	display: block;
   margin-left: auto;
   margin-right: auto;
-    max-width: 20% !important;
+    max-width: 60% !important;
+	    height: auto;
+}
+
+.pagecover img {
+	display: block;
+    max-width: 25% !important;
 	    height: auto;
 }
 
@@ -336,8 +359,9 @@ img {
 	border-width: 2px;
 	padding-left: 10px;
 	max-width: 70% !important;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	color: #662d17;
   }
 
 
