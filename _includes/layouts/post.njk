@@ -20,7 +20,7 @@ layout: layouts/base.njk
       <td>{{ page.date | htmlDateString }}</td>
     </tr>
     <tr>
-      <th>Type</th>
+      <th>Tag</th>
       <td>
         {%- for tag in tags | filterTagList %}
 	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
