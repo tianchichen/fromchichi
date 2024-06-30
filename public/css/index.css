@@ -41,7 +41,7 @@ body {
 	font-family: var(--font-family-monospace);
 	color: var(--text-color);
 	background-color: var(--background-color);
-	font-size: 15px;
+	font-size: 17px;
 	display: flex;
   flex-direction: column;
   justify-content: space-between; /* 垂直方向上的空间分配 */
