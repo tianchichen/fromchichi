@@ -224,7 +224,7 @@ header {
 
 
 .postlist-link {
-	font-size: 1em; /* 19px /16 */
+	font-size: 1.1em; /* 19px /16 */
 	font-weight: 700;
 	flex-basis: calc(100% - 1.5rem);
 	padding-left: .25em;
