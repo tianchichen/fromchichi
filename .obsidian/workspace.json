@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "ed075b91306ec0e4",
+    "id": "d818c8c8585157a7",
     "type": "split",
     "children": [
       {
-        "id": "1e391658ffd962cc",
+        "id": "ba071f3668fc2729",
         "type": "tabs",
         "children": [
           {
-            "id": "6969e669f15b1a37",
+            "id": "9bc60ca50cb8a0d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "001commonplacebook.md",
+                "file": "content/blog/003low_tech_magazine.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,25 +25,25 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4f4ee4330052d512",
+    "id": "b37d3a8bb873d858",
     "type": "split",
     "children": [
       {
-        "id": "53d5f1e9c394940f",
+        "id": "1427116e7c8c98e8",
         "type": "tabs",
         "children": [
           {
-            "id": "adfddfe0e6977b82",
+            "id": "4b44715f6c8b6041",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "c7bfb1fad88cb1b9",
+            "id": "85b01a179b2fa782",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "6ccc0f78e2bda5cd",
+            "id": "ba8032d9d3e61a6b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "c708ea4b7e9c7c1e",
+    "id": "4b02d6df2849dfbe",
     "type": "split",
     "children": [
       {
-        "id": "9c98eab27e047d50",
+        "id": "1d543a8a41b16edc",
         "type": "tabs",
         "children": [
           {
-            "id": "5e7d555bb259b8ae",
+            "id": "1e0107b2c421d362",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "001commonplacebook.md",
+                "file": "content/blog/003low_tech_magazine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "9b05d45287e0c997",
+            "id": "d581abdfd4732a6b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "001commonplacebook.md",
+                "file": "content/blog/003low_tech_magazine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "4ef0563d16ae3972",
+            "id": "bb1dfc543c59d652",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "46270ea4ab0a5e9c",
+            "id": "0f2df5dde6f4baaa",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "001commonplacebook.md"
+                "file": "content/blog/003low_tech_magazine.md"
               }
             }
           }
@@ -146,9 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "adfddfe0e6977b82",
+  "active": "9bc60ca50cb8a0d8",
   "lastOpenFiles": [
-    "003low_tech_magazine.md",
-    "001commonplacebook.md"
+    "content/blog/001commonplacebook.md",
+    "content/blog/002notebook/6.png",
+    "content/blog/002notebook/7.png",
+    "content/blog/002notebook/oldnotebook.md",
+    "content/blog/002notebook/1.png",
+    "node_modules/@11ty/dependency-tree/README.md"
   ]
 }
