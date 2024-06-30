@@ -178,7 +178,7 @@ header {
 .nav-item {
 	display: inline-block;
 	margin-right: 3em;
-	font-size: 1.2em; /* 16px /16 */
+	font-size: 1.1em; /* 16px /16 */
 }
 .nav-item a[href]:not(:hover) {
 	text-decoration: none;
@@ -224,7 +224,7 @@ header {
 
 
 .postlist-link {
-	font-size: 1.1875em; /* 19px /16 */
+	font-size: 1em; /* 19px /16 */
 	font-weight: 700;
 	flex-basis: calc(100% - 1.5rem);
 	padding-left: .25em;
